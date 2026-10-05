@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 256
+  Height = 240
+  Top = 145
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object ButtonNuova: TButton
+    Left = 176
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = 'Nuova Partrita'
+    TabOrder = 0
+    OnClick = ButtonNuovaClick
+  end
+  object ButtonProva: TButton
+    Left = 64
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = 'Indovina'
+    TabOrder = 1
+    OnClick = ButtonProvaClick
+  end
+  object Label1: TLabel
+    Left = 80
+    Height = 15
+    Top = 24
+    Width = 155
+    Caption = 'indovina il numero da 1 a 100'
+  end
+  object LabelRisposta: TLabel
+    Left = 64
+    Height = 15
+    Top = 192
+    Width = 41
+    Caption = 'risposta'
+  end
+  object EditNumero: TEdit
+    Left = 88
+    Height = 23
+    Top = 64
+    Width = 128
+    TabOrder = 2
+  end
+end
